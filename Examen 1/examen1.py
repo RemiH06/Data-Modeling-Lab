@@ -152,6 +152,24 @@ for i in range(3):
     print(f'{X.columns[indices[i]]}: {importances[indices[i]]}')
 
 
+# RMSE Entrenamiento: 1.8684075175789856
+# RMSE Prueba: 1.6426611846418695
+# 
+# Alpha óptimo: 10.0
+# 
+# RMSE Ridge: 1.647700631566028
+# 
+# RMSE Promedio (Random Forest): 2.1217831722687754
+# 
+# RMSE Entrenamiento: 1.8684075175789856
+# RMSE Prueba: 1.6426611846418695
+# 
+# Alpha óptimo: 10.0
+# 
+# RMSE Ridge: 1.647700631566028
+# 
+# RMSE Promedio (Random Forest): 2.1217831722687754
+
 # ## Sección Reflexión
 
 # Pregunta 9: Supón que te piden implementar este modelo en un centro de alto rendimiento con recursos limitados. ¿Qué modelo elegirías y por qué? ¿Qué variables eliminarías o transformarías antes de implementarlo? Explica cómo comunicarías los resultados a un entrenador que no sabe de estadística, resaltando los factores clave que influyen en el rendimiento.
